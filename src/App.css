@@ -51,3 +51,10 @@ h1{
   img{
     border-radius: 50%;
   }
+  @media all and (max-width: 800px){
+    .crossed {
+      -webkit-text-decoration-line: line-through;
+      -webkit-text-decoration-color: red;
+      -webkit-text-decoration-thickness: 2px;
+      }
+  }
